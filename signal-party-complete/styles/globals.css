@@ -1,0 +1,113 @@
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: radial-gradient(circle at top, #1b2440 0%, #07090f 45%, #020306 100%);
+  color: #e9eefb;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 16px 60px;
+}
+
+.card {
+  background: rgba(18, 22, 37, 0.88);
+  border: 1px solid rgba(122, 152, 255, 0.28);
+  border-radius: 14px;
+  padding: 18px;
+  margin-bottom: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+input, select {
+  width: 100%;
+  background: #0d1321;
+  border: 1px solid #334060;
+  border-radius: 8px;
+  color: #e9eefb;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #0fd4ff, #7b5cff);
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 12px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+button.secondary {
+  background: #18223b;
+  border: 1px solid #334060;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.row > * {
+  flex: 1;
+}
+
+.pill {
+  display: inline-block;
+  background: rgba(15, 212, 255, 0.16);
+  border: 1px solid rgba(15, 212, 255, 0.4);
+  color: #b2f4ff;
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 12px;
+}
+
+.listItem {
+  padding: 10px;
+  border: 1px solid #2a3554;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.error {
+  color: #ff9aa5;
+  font-size: 14px;
+}
+
+.success {
+  color: #8ff3a6;
+  font-size: 14px;
+}
